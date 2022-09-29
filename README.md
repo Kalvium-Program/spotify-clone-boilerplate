@@ -6,7 +6,7 @@
 
 ## Fork this repo and getstarted with the cloning project.
 
-##Additional details:
+## Additional details:
 Use color picker extensions link [colorpick-eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/) in Google chrome to get the exact colors used in the webpage.
 
 The font used: DM Sans
