@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #121212;
+    font-family: DM Sans;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #000000;
+    padding: 24px;
+}
+
+.sidebar .logo img {
+    width: 130px;
+}
+
+.sidebar .navigation ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.sidebar .navigation ul li {
+    padding: 9px 0px;
+}
+
+.sidebar .navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sidebar .navigation ul li a:hover {
+    color: white;
+    background-color: gray;
+}
+
+.main {
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+.sidebar .navigation img {
+    width: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 30px;
+}
+
+.topbar .prevnext img {
+    width: 90px;
+}
+
+.topbar .navbar {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .navbar ul {
+    list-style: none;
+}
+
+.topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 60px;
+}
+
+.topbar .navbar ul li a {
+    color: black;
+}
+
+.topbar .navbar img {
+    background-color: black;
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.GoodMorning {
+    padding: 20px 40px;
+}
+
+.GoodMorning h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.GoodMorning .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.GoodMorning .list .item {
+    width: 200px;
+    color: #ffffff;
+    font-size: 14px;
+    font-display: justify;
+    background-color: #383535;
+    cursor: pointer;
+}
+
+.GoodMorning .list .item:hover {
+    background-color: #252525;
+}
+
+.GoodMorning .list .item img {
+    width: 50px;
+    padding: 0%;
+}
+
+
+.GoodMorning .shows {
+    padding: 20px 0px;
+    
+}
+
+.GoodMorning .shows h2 {
+    color: #ffffff;
+    font-size: 22px;
+   
+}
+.GoodMorning .shows h5 {
+    color: #ffffff;
+    
+    margin-left: 5px;
+}
+
+
+
+.GoodMorning .shows .list1 {
+    display: flex;
+    flex-wrap: nowrap;
+    color:white;
+}
+
+.GoodMorning .shows .item1 {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.GoodMorning .shows .item1 img {
+    width: 100px;
+    height: 100px;
+}
+.bottom-bar {
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /
+    align-items: center;
+    z-index: 2;
+}
+
+.bottom-bar .x img {
+    width: 400px;
+    height: 20px;
+}
+
+
